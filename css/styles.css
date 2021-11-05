@@ -1,6 +1,70 @@
 :root {
-  --main-bg-color: white;
+  --primary-bg-color: white;
+  --secondary-bg-color: #2f303a;
+  --tertiary-bg-color: #f5f4fa;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --tertiary-text-color: #2196f3;
 }
+
 body {
-  background-color: var(--main-bg-color);
+  background-color: var(--primary-bg-color);
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+/*Header*/
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  color: var(--primary-text-color);
+}
+.web {
+  color: var(--tertiary-text-color);
+}
+.site-nav {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--primary-text-color);
+}
+.auth-nav {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--secondary-text-color);
+}
+/*Hero*/
+.hero {
+  background-color: var(--secondary-bg-color);
+}
+.hero-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.button-primary {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ffffff;
+  background-color: #2196f3;
 }
